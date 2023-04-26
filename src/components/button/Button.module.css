@@ -1,0 +1,16 @@
+.button {
+  background-color: aqua;
+  border: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 15px;
+  cursor: pointer;
+
+  transition: all 0.5s; /*tira a mudança brusca ao clarear no hover*/
+}
+/* Para transparencia*/ 
+.button:hover {
+  background-color: rgb(18, 133, 95);
+}

@@ -11,8 +11,8 @@ function Title(props){
   return (
     <h2 className={styles.title}>
       {props.text} {/*Chama o texto com propriedade ma tag Title do index*/}
-       {constante}
-       {funcao()}
+      {/* {constante} */}
+      {/*{funcao()} */}
        {props.children} {/*Chama o texto filho na tag Title do index*/}
     </h2>
   )
